@@ -4,7 +4,7 @@ temperature u °C i podatka da li se predviđaju padavine ili ne (ako ne onda pr
 
 Doživljaj toplote je dat u tabeli:
 Temperatura | Dozivljaj
-----------------------
+----------- | ---------
 >30°C | vrlo vruće
 20-30°C | vruće
 5-20°C |onako
