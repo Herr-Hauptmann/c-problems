@@ -1,24 +1,19 @@
-Tri drugarice Anja, Elma i Una odlučile su za vikend da idu u neki grad u kojem je lijepo
-vrijeme. Problem je što se njih tri ne slažu oko toga šta je tačno "lijepo vrijeme": Anja voli sunce
-i snijeg ali ne voli kišu, Elma ne voli kada je vrlo vruće niti vrlo hladno, a Una ne voli padavine
-generalno i ne voli kad je vrijeme "onako".
-Napravite program koji će drugaricama pomoći da izaberu da li će ići u Sarajevo, Mostar ili
-Bihać. Najprije je potrebno unijeti vremensku prognozu za svaki od ova tri grada, i to u vidu
-temperature u °C i podatka da li se predviđaju padavine ili ne (ako ne onda pretpostavljamo da će
-biti sunčano). Ako je temperatura veća od 0°C, padavina je kiša, a u suprotnom padavina je
-snijeg. Doživljaj toplote je dat u tabeli:
-● >30°C - vrlo vruće
-● 20-30°C - vruće
-● 5-20°C - onako
-● -5-5°C - hladno
-● <-5°C - vrlo hladno
-Ako ima više gradova u kojima vrijeme odgovara sve tri drugarice, treba ispisati najbliži
-(drugaricama je najbliže Sarajevo, zatim Mostar i na kraju Bihać). Poruka treba glasiti npr.
-"Drugarice idu u Mostar." Ako niti jedan grad ne odgovara svim drugaricama, treba ispisati
-najbliži grad u koji mogu ići barem dvije od tri drugarice npr. "Elma i Una mogu u Bihac."
-(imena treba poredati abecednim redom). Ako ni takav grad ne postoji, onda treba ispisati "Ne
-odgovara niti jedan grad."
-Primjer ulaza i izlaza:
+# Prognoza
+Tri drugarice Anja, Elma i Una odlučile su za vikend da idu u neki grad u kojem je lijepo vrijeme. Problem je što se njih tri ne slažu oko toga šta je tačno "lijepo vrijeme": Anja voli sunce i snijeg ali ne voli kišu, Elma ne voli kada je vrlo vruće niti vrlo hladno, a Una ne voli padavine generalno i ne voli kad je vrijeme "onako". Napravite program koji će drugaricama pomoći da izaberu da li će ići u Sarajevo, Mostar ili Bihać. Najprije je potrebno unijeti vremensku prognozu za svaki od ova tri grada, i to u vidu
+temperature u °C i podatka da li se predviđaju padavine ili ne (ako ne onda pretpostavljamo da će biti sunčano). Ako je temperatura veća od 0°C, padavina je kiša, a u suprotnom padavina je snijeg. 
+
+Doživljaj toplote je dat u tabeli:
+| Temperatura | Dozivljaj |
+| --- | --- |
+| >30°C | vrlo vruće |
+| 20-30°C | vruće |
+| 5-20°C |onako |
+| -5-5°C | hladno |
+| <-5°C | vrlo hladno |
+
+Ako ima više gradova u kojima vrijeme odgovara sve tri drugarice, treba ispisati najbliži (drugaricama je najbliže Sarajevo, zatim Mostar i na kraju Bihać). Poruka treba glasiti npr. "Drugarice idu u Mostar." Ako niti jedan grad ne odgovara svim drugaricama, treba ispisati najbliži grad u koji mogu ići barem dvije od tri drugarice npr. "Elma i Una mogu u Bihac." (imena treba poredati abecednim redom). Ako ni takav grad ne postoji, onda treba ispisati "Ne odgovara niti jedan grad."
+## Primjer ulaza i izlaza:
+```
 Unesite prognozu za Sarajevo:
 Temperatura: 25
 Padavine (D/N): k
@@ -31,6 +26,5 @@ Unesite prognozu za Bihac:
 Temperatura: 20
 Padavine (D/N): N
 Drugarice idu u Mostar.
-Napomena: Na upit "Padavine (D/N):" dozvoljeno je unijeti veliko ili malo slovo D ili N. Ako
-korisnik ne unese ništa od toga, treba ispisati poruku "Pogresan unos." i ponavljati unos sve dok
-se ne unese ispravno slovo.
+```
+Napomena: Na upit "Padavine (D/N):" dozvoljeno je unijeti veliko ili malo slovo D ili N. Ako korisnik ne unese ništa od toga, treba ispisati poruku "Pogresan unos." i ponavljati unos sve dok se ne unese ispravno slovo.
