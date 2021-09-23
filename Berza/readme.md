@@ -1,3 +1,4 @@
+# Berza
 Robe (eng. commodities) kojima se najviše trguje na berzi su zlato, srebro i nafta. Trenutne približne cijene ovih roba su: zlato $1200 po unci, srebro $15 po unci i nafta $70 po barelu. Svakog radnog dana cijena svake od ovih roba raste ili pada za određeni procenat. Npr. ako je cijena bila $1000 i porasla je za 0.1%, ona sada iznosi $1001. Procenat porasta (ili pada) cijene se ne može drastično promijeniti: u našoj igri ovaj procenat se svaki dan može povećati ili smanjiti za 0.1. Koristite funkciju rand() koju smo radili na tutorijalu tako da budu podjednake šanse da će procenat porasti ili pasti za 0.1.
 
 Na kraju sedmice imate priliku da trgujete ovim robama. Igru počinjete po isteku prve sedmice sa $100000 u kešu. Možete kupiti ili prodati određenu robu po trenutnoj cijeni. Naravno, ne možete kupiti više robe nego što imate novca, niti prodati više nego što imate. Kada završite trgovinu možete preći na sljedeću sedmicu ili prekinuti igru.
